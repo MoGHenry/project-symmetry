@@ -3,7 +3,8 @@ run-name: ${{ github.actor }} is building symmetry 🚀
 on:
   push:
     branches-ignore:
-      - 'master-branch'    
+      - 'master_branch'
+      - 'SurajPatil'
 jobs:
   Test_API_endpoints:
     runs-on: windows-latest
